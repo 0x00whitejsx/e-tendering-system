@@ -7,11 +7,9 @@ import Skills from './component/Skills'
 import { Route, Routes } from 'react-router-dom'
 
 
-
 function App() {
 
   return (
-  
     <Routes>
       <Route path='/' element={ <Home />} />
       <Route path='/Projects' element={<Project />} />
@@ -20,8 +18,8 @@ function App() {
       <Route path='/Bid' element={ <Bid /> } />
       <Route path='/Policy' element={ <Policy /> } />
     </Routes>
-    
-  )
+
+)
 }
 
 export default App
