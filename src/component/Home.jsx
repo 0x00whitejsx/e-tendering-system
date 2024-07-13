@@ -15,7 +15,7 @@ function Home() {
         <div className="flex md:flex-row flex-col justify-center items-center mt-10">
           <div className="w-1/2 flex flex-col justify-center items-center  align-middle p-5">
             <p className="text-gray-200 text-4xl mb-10">
-              Adamawa State {" "}
+              Adamawa State Beruie of of Public procurement E-tendering System{" "}
             </p>
             <p>e-tendering System</p>
             <p className="text-slate-400 w-5/6 items-center mt-5 mb-10">
