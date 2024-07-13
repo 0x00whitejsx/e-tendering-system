@@ -40,7 +40,7 @@ function Skills() {
       </div>
       <div className='flex justify-center items-center'>
         <div className='w-[90vh] bg-white p-8 rounded-lg shadow-lg'>
-          <h3 className='text-2xl font-semibold mb-6 text-center'>Leaderboard</h3>
+          <h3 className='text-2xl font-semibold mb-6 text-center p-20 fixed'>Leaderboard</h3>
           <ul>
             {bidders.map((bidder, index) => (
               <li key={bidder.id} className={`mb-4 p-4 border rounded-md shadow-md ${index === 0 ? 'border-yellow-500 bg-yellow-100' : 'border-gray-300'}`}>
