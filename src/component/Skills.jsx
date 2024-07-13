@@ -38,7 +38,7 @@ function Skills() {
       <div className='flex justify-start items-center mb-8'>
         <h2 className='text-4xl text-green-700'>Fair E-Bidding: A Commitment to Integrity</h2>
       </div>
-      <div className='flex justify-center items-center'>
+      <div className='flex justify-center items-center  mt-15'>
         <div className='w-[90vh] bg-white p-8 rounded-lg shadow-lg mt-10'>
           <h3 className='text-2xl font-semibold mb-6 text-center p-20 fixed mt-5'>Leaderboard</h3>
           <ul>
