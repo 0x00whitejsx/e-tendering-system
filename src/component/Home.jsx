@@ -15,7 +15,7 @@ function Home() {
         <div className="flex md:flex-row flex-col justify-center items-center mt-10">
           <div className="w-1/2 flex flex-col justify-center items-center  align-middle p-5">
             <p className="text-black text-4xl mb-10 font-extrabold">
-            Adamawa State Bureau of Public Procurement E-tendering System{" "}
+            Adamawa State Bureau of Public Procurement<br /> E-tendering System{" "}
             </p>
            
             <p className="text-green-900 w-5/6 items-center mt-5 mb-10">
