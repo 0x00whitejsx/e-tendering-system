@@ -100,12 +100,12 @@ function Bid() {
           >
             Submit
           </button>
-          <button
+          {/* <button
             type="button"
             className="bg-black ml-4 ring-2 mb-10 ring-red-500 text-white px-8 py-2 rounded hover:bg-red-700 focus:outline-none focus:shadow-outline-blue active:bg-blue-800"
           >
             Withdraw
-          </button>
+          </button> */}
         </div>
       </form>
     </div>
