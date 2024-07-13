@@ -42,7 +42,7 @@ function Bidder() {
             value={formData.projectName}
             onChange={handleChange}
             placeholder="Project Name"
-            className="mb-4 w-full px-4 py-2 ring-2 bg-black ring-green-300 border rounded focus:outline-none focus:border-blue-500"
+            className="mb-4 w-full px-4 py-2 ring-2 ring-green-300 border rounded focus:outline-none focus:border-blue-500"
           />
           <textarea
             name="projectDescription"
@@ -50,7 +50,7 @@ function Bidder() {
             onChange={handleChange}
             rows={8}
             placeholder="Project Description"
-            className="mb-4 w-full mt-2 ring-2 bg-black ring-green-300 px-4 py-2 border rounded focus:outline-none focus:border-blue-500"
+            className="mb-4 w-full mt-2 ring-2  ring-green-300 px-4 py-2 border rounded focus:outline-none focus:border-blue-500"
           ></textarea>
         </div>
 
@@ -62,7 +62,7 @@ function Bidder() {
             value={formData.eligibilityCriteria}
             onChange={handleChange}
             placeholder="Eligibility Criteria"
-            className="mb-4 w-full px-4 ring-2 bg-black ring-green-300 py-2 border rounded focus:outline-none focus:border-blue-500"
+            className="mb-4 w-full px-4 ring-2  ring-green-300 py-2 border rounded focus:outline-none focus:border-blue-500"
           ></textarea>
           <input
             type="text"
@@ -70,7 +70,7 @@ function Bidder() {
             value={formData.bidWithdrawal}
             onChange={handleChange}
             placeholder="Bid Withdrawal"
-            className="mb-4 w-full mt-2 ring-2 bg-black ring-green-300 px-4 py-2 border rounded focus:outline-none focus:border-blue-500"
+            className="mb-4 w-full mt-2 ring-2  ring-green-300 px-4 py-2 border rounded focus:outline-none focus:border-blue-500"
           />
         </div>
         {/* Bid Submission Deadline */}
@@ -84,7 +84,7 @@ function Bidder() {
             value={formData.bidSubmissionDeadline}
             onChange={handleChange}
             placeholder="Bid Submission Deadline"
-            className="mb-4 w-full mt-2 ring-2 bg-black ring-green-300 px-4 py-2 border rounded focus:outline-none focus:border-blue-500"
+            className="mb-4 w-full mt-2 ring-2  ring-green-300 px-4 py-2 border rounded focus:outline-none focus:border-blue-500"
           />
         </div>
 
@@ -98,7 +98,7 @@ function Bidder() {
             value={formData.eligibilityCriteria}
             onChange={handleChange}
             placeholder="Eligibility Criteria"
-            className="mb-4 w-full mt-2 ring-2 bg-black ring-green-300 px-4 py-2 border rounded focus:outline-none focus:border-blue-500"
+            className="mb-4 w-full mt-2 ring-2  ring-green-300 px-4 py-2 border rounded focus:outline-none focus:border-blue-500"
           ></textarea>
         </div>
 
@@ -113,7 +113,7 @@ function Bidder() {
             value={formData.bidWithdrawal}
             onChange={handleChange}
             placeholder="Bid Withdrawal"
-            className="mb-4 w-full mt-2 ring-2 bg-black ring-green-300 px-4 py-2 border rounded focus:outline-none focus:border-blue-500"
+            className="mb-4 w-full mt-2 ring-2  ring-green-300 px-4 py-2 border rounded focus:outline-none focus:border-blue-500"
           />
         </div>
 
