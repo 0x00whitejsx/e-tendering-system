@@ -10,7 +10,7 @@ function Navigation() {
             <div>
         <a className='p-5 text-sm text-green-700 hover:text-green-900' href='/'> [ Home ]</a>
         <a className='p-5 text-sm text-green-700 hover:text-green-900' href='Bid'> [ Bid ]</a>
-        <a className='p-5 text-sm text-green-700 hover:text-green-900' href='Skills'> [ view Bidder ]</a>
+        <a className='p-5 text-sm text-green-700 hover:text-green-900' href='project'> [ view Bidder ]</a>
         <a className='p-5 text-sm text-green-700 hover:text-green-900' href='Skills'> [ Open contract ]</a>
         <a className='p-5 text-sm text-green-700 hover:text-green-900' href='Skills'> [ View  ]</a>
         <a className='p-5 text-sm text-green-700 hover:text-green-900' href='Policy'> [ Policy  ]</a>
