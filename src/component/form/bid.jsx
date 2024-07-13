@@ -27,7 +27,7 @@ function Bid() {
 
   return (
     <div className="container mx-auto mt-8 h-[100vh]">
-      <form onSubmit={handleSubmit} className="max-w-md mx-auto text-green-200">
+      <form onSubmit={handleSubmit} className="max-w-md mx-auto text-green-900">
         <h1 className="text-2xl font-bold mb-4">BID SUBMISSION PAGE</h1>
 
         <div className="mb-8">
