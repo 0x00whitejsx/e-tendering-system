@@ -10,7 +10,7 @@ import Navigation from "./navigation";
 function Home() {
   return (
     <div className="w-full   ">
-      <div className="w-full backpattern bg-black pb-10">
+      <div className="w-full  pb-10">
         <Navigation />
         <div className="flex md:flex-row flex-col justify-center items-center mt-10">
           <div className="w-1/2 flex flex-col justify-center items-center  align-middle p-5">

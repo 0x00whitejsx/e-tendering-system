@@ -4,7 +4,7 @@ import bidObord from '../assets/mindful.svg'
 
 function About() {
   return (
-    <div className='w-full bg-black backpattern md:pl-10 md:pr-10 flex flex-col justify-center items-center'>
+    <div className='w-full  md:pl-10 md:pr-10 flex flex-col justify-center items-center'>
         <div className='flex justify-start items-center'>
           <a href="/">
          <img src={bidObord} alt="bider"  className='w-60 h-60 mb-20'/>
