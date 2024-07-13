@@ -103,7 +103,7 @@ function Bidder() {
         </div>
 
         {/* Bid Withdrawal */}
-        <div className="mb-8">
+        {/* <div className="mb-8">
           <label htmlFor="bidWithdrawal" className="text-sm font-medium text-gray-600">
             Bid Withdrawal
           </label>
@@ -115,7 +115,7 @@ function Bidder() {
             placeholder="Bid Withdrawal"
             className="mb-4 w-full mt-2 ring-2  ring-green-300 px-4 py-2 border rounded focus:outline-none focus:border-blue-500"
           />
-        </div>
+        </div> */}
 
 
         <div className='flex justify-between'>
