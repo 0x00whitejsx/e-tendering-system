@@ -10,11 +10,11 @@ import Navigation from "./navigation";
 function Home() {
   return (
     <div className="w-full   ">
-      <div className="w-full bg-blue-700 pb-10">
+      <div className="w-full bg-white pb-10">
         <Navigation />
         <div className="flex md:flex-row flex-col justify-center items-center mt-10">
           <div className="w-1/2 flex flex-col justify-center items-center  align-middle p-5">
-            <p className="text-white text-4xl mb-10">
+            <p className="text-green-400 text-4xl mb-10">
               Adamawa State Beruie of of Public procurement E-tendering System{" "}
             </p>
             <p>e-tendering System</p>
