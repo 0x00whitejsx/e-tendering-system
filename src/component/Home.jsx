@@ -15,8 +15,9 @@ function Home() {
         <div className="flex md:flex-row flex-col justify-center items-center mt-10">
           <div className="w-1/2 flex flex-col justify-center items-center  align-middle p-5">
             <p className="text-gray-200 text-4xl mb-10">
-              Adamawa State e-tendering System{" "}
+              Adamawa State {" "}
             </p>
+            <p>e-tendering System</p>
             <p className="text-slate-400 w-5/6 items-center mt-5 mb-10">
               E-Tendering System, a revolutionary platform designed to redefine
               the landscape of procurement. More than just a digital solution,
@@ -44,13 +45,13 @@ function Home() {
             </div>
             <div className="m-auto flex-col justify-around align-middle items-center mt-10 ">
               {/* <p className='w-5/6 text-gray-400 text-center m-5 mt-10 p-5'> 🔥</p> */}
-              <a
+              {/* <a
                 className="p-5 text-sm  text-green-700 hover:text-green-900 border-2 border-green-200 mt-10 m-4"
                 href="../assets/whitejsx.pdf "
               >
                 {" "}
                 [ Connect your wallet smart wallet ]
-              </a>
+              </a> */}
               <a
                 className="p-5 text-sm  text-green-700 hover:text-green-900 border-2 border-green-200 mt-10 m-4"
                 href="#more"
