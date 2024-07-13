@@ -2,7 +2,7 @@ import React from 'react'
 
 function Navigation() {
   return (
-    <div className='w-full  top-0 p-8'>
+    <div className='w-full  top-0 p-8 bg-green-100'>
         <div className='flex justify-between items-end'>
             <div>
               <p className='text-slate-400 font-bold invert-0'>statetbidder.com</p>
