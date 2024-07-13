@@ -15,10 +15,10 @@ function Home() {
         <div className="flex md:flex-row flex-col justify-center items-center mt-10">
           <div className="w-1/2 flex flex-col justify-center items-center  align-middle p-5">
             <p className="text-green-400 text-4xl mb-10">
-              Adamawa State Beruie of of Public procurement E-tendering System{" "}
+            Adamawa State Bureau of Public Procurement E-tendering System{" "}
             </p>
-            <p>e-tendering System</p>
-            <p className="text-white w-5/6 items-center mt-5 mb-10">
+           
+            <p className="text-green-900 w-5/6 items-center mt-5 mb-10">
               E-Tendering System, a revolutionary platform designed to redefine
               the landscape of procurement. More than just a digital solution,
               our system is a beacon of innovation and integrity, paving the way
