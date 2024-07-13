@@ -1,16 +1,11 @@
-import React, { useState } from 'react'
-
-
-
+import React, { useState } from 'react';
 
 function Bidder() {
-
   const [formData, setFormData] = useState({
-    projectName: '',
-    projectDescription: '',
-    bidSubmissionDeadline: '',
-    eligibilityCriteria: '',
-    bidWithdrawal: '',
+    tenderNo: '',
+    tenderDescription: '',
+    evaluationCriteria: '',
+    submissionDeadline: '',
   });
 
   const handleChange = (e) => {
@@ -31,112 +26,63 @@ function Bidder() {
   return (
     <div className="container mx-auto mt-8 h-[100vh]">
       <form onSubmit={handleSubmit} className="max-w-md mx-auto text-green-200">
-        {/* Company Information */}
-   
-       
+        <h1 className="text-2xl font-bold mb-4">BID CREATION PAGE</h1>
+
         <div className="mb-8">
-          <h2 className="text-xl font-semibold mb-2">Project Details</h2>
+          <label htmlFor="tenderNo" className="text-sm font-medium text-gray-600">Tender No</label>
           <input
             type="text"
-            name="projectName"
-            value={formData.projectName}
+            name="tenderNo"
+            value={formData.tenderNo}
             onChange={handleChange}
-            placeholder="Project Name"
+            placeholder="Tender No"
             className="mb-4 w-full px-4 py-2 ring-2 ring-green-300 border rounded focus:outline-none focus:border-blue-500"
           />
+          <label htmlFor="tenderDescription" className="text-sm font-medium text-gray-600">Tender Description</label>
           <textarea
-            name="projectDescription"
-            value={formData.projectDescription}
+            name="tenderDescription"
+            value={formData.tenderDescription}
             onChange={handleChange}
             rows={8}
-            placeholder="Project Description"
-            className="mb-4 w-full mt-2 ring-2  ring-green-300 px-4 py-2 border rounded focus:outline-none focus:border-blue-500"
+            placeholder="Tender Description"
+            className="mb-4 w-full mt-2 ring-2 ring-green-300 px-4 py-2 border rounded focus:outline-none focus:border-blue-500"
           ></textarea>
-        </div>
-
-        {/* Bid Terms */}
-        <div className="mb-8">
-          <h2 className="text-xl font-semibold mb-2">Bid Terms</h2>
+          <label htmlFor="evaluationCriteria" className="text-sm font-medium text-gray-600">Evaluation Criteria</label>
           <textarea
-            name="eligibilityCriteria"
-            value={formData.eligibilityCriteria}
+            name="evaluationCriteria"
+            value={formData.evaluationCriteria}
             onChange={handleChange}
-            placeholder="Eligibility Criteria"
-            className="mb-4 w-full px-4 ring-2  ring-green-300 py-2 border rounded focus:outline-none focus:border-blue-500"
+            placeholder="Evaluation Criteria"
+            className="mb-4 w-full px-4 ring-2 ring-green-300 py-2 border rounded focus:outline-none focus:border-blue-500"
           ></textarea>
+          <label htmlFor="submissionDeadline" className="text-sm font-medium text-gray-600">Submission Deadline</label>
           <input
             type="text"
-            name="bidWithdrawal"
-            value={formData.bidWithdrawal}
+            name="submissionDeadline"
+            value={formData.submissionDeadline}
             onChange={handleChange}
-            placeholder="Bid Withdrawal"
-            className="mb-4 w-full mt-2 ring-2  ring-green-300 px-4 py-2 border rounded focus:outline-none focus:border-blue-500"
+            placeholder="Submission Deadline"
+            className="mb-4 w-full mt-2 ring-2 ring-green-300 px-4 py-2 border rounded focus:outline-none focus:border-blue-500"
           />
         </div>
-        {/* Bid Submission Deadline */}
-        <div className="mb-8">
-          <label htmlFor="bidSubmissionDeadline" className="text-sm font-medium text-gray-600">
-            Bid Submission Deadline
-          </label>
-          <input
-            type="text"
-            name="bidSubmissionDeadline"
-            value={formData.bidSubmissionDeadline}
-            onChange={handleChange}
-            placeholder="Bid Submission Deadline"
-            className="mb-4 w-full mt-2 ring-2  ring-green-300 px-4 py-2 border rounded focus:outline-none focus:border-blue-500"
-          />
-        </div>
-
-        {/* Eligibility Criteria */}
-        <div className="mb-8">
-          <label htmlFor="eligibilityCriteria" className="text-sm font-medium text-gray-600">
-            Eligibility Criteria
-          </label>
-          <textarea
-            name="eligibilityCriteria"
-            value={formData.eligibilityCriteria}
-            onChange={handleChange}
-            placeholder="Eligibility Criteria"
-            className="mb-4 w-full mt-2 ring-2  ring-green-300 px-4 py-2 border rounded focus:outline-none focus:border-blue-500"
-          ></textarea>
-        </div>
-
-        {/* Bid Withdrawal */}
-        {/* <div className="mb-8">
-          <label htmlFor="bidWithdrawal" className="text-sm font-medium text-gray-600">
-            Bid Withdrawal
-          </label>
-          <input
-            type="text"
-            name="bidWithdrawal"
-            value={formData.bidWithdrawal}
-            onChange={handleChange}
-            placeholder="Bid Withdrawal"
-            className="mb-4 w-full mt-2 ring-2  ring-green-300 px-4 py-2 border rounded focus:outline-none focus:border-blue-500"
-          />
-        </div> */}
-
 
         <div className='flex justify-between'>
-        {/* Submit Button */}
-        <button
-          type="submit"
-          className="bg-black ring-2 mb-10 ring-green-900 text-white px-8 py-2 rounded hover:bg-red-700 focus:outline-none focus:shadow-outline-blue active:bg-blue-800"
-        >
-          Cancel
-        </button>
-        
-          {/* Submit Button */}
           <button
-          type="submit"
-          className="bg-black ml-4 ring-2 mb-10 ring-green-500 text-white px-8 py-2 rounded hover:bg-green-900  focus:outline-none focus:shadow-outline-blue active:bg-blue-800"
-        >
-          Publish
-        </button>
+            type="button"
+            className="bg-black ring-2 mb-10 ring-green-900 text-white px-8 py-2 rounded hover:bg-red-700 focus:outline-none focus:shadow-outline-blue active:bg-blue-800"
+          >
+            Cancel
+          </button>
+          <button
+            type="submit"
+            className="bg-black ml-4 ring-2 mb-10 ring-green-500 text-white px-8 py-2 rounded hover:bg-green-900 focus:outline-none focus:shadow-outline-blue active:bg-blue-800"
+          >
+            Publish
+          </button>
         </div>
       </form>
     </div>
   );
-};
-export default Bidder
+}
+
+export default Bidder;
